@@ -32,7 +32,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/correio-sesi.git
+   git clone https://github.com/felipeczpaz/correio-sesi.git
    ```
 
 2. Navigate to the project directory: 
