@@ -36,7 +36,7 @@ const NewPost: React.FC = () => {
   return (
     <div className="my-4">
       <div className="border rounded shadow p-4">
-        <h3>Criar uma Nova Postagem</h3>
+        <h3>Criar um Novo Post</h3>
         <FloatingLabel 
           controlId="floatingTextarea2" 
           label="O que você está pensando?" 
@@ -45,7 +45,8 @@ const NewPost: React.FC = () => {
           <Form.Control
             as="textarea"
             placeholder="Deixe um comentário aqui"
-            style={{ height: '150px', backgroundColor: '#f8f9fa', borderColor: '#ced4da' }} // Match the background color with the border color
+            className="bg-light" // Use Bootstrap's bg-light class for a light gray background
+            style={{ height: '150px' }} // Keep the border color
             value={content}
             onChange={(e) => setContent(e.target.value)}
           />
